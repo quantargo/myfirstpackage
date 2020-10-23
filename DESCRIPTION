@@ -1,7 +1,7 @@
 Package: myfirstpackage
 Type: Package
 Title: First R package for Uniqa Advanced R Workshop
-Version: 0.1.0
+Version: 0.2.0
 Author: Mario
 Maintainer: Mario <mario@qunatargo.com>
 Description: First R package to show the main functionalities.
