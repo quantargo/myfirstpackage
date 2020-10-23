@@ -2,6 +2,7 @@
 
 export(add)
 export(add_quantiles)
+export(add_quantiles2)
 export(plot_histogram)
 importFrom(graphics,hist)
 importFrom(stats,quantile)

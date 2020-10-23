@@ -14,3 +14,10 @@ add <- function(x, y) {
 add_quantiles <- function(x, y) {
   quantile(x + y)
 }
+
+#' @rdname add
+#' @importFrom stats quantile
+#' @export
+add_quantiles2 <- function(x, y, n = 10) {
+  quantile(x + y, n)
+}

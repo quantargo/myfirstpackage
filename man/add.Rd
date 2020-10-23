@@ -3,11 +3,14 @@
 \name{add}
 \alias{add}
 \alias{add_quantiles}
+\alias{add_quantiles2}
 \title{Adding Numbers and Square}
 \usage{
 add(x, y)
 
 add_quantiles(x, y)
+
+add_quantiles2(x, y, n = 10)
 }
 \arguments{
 \item{x}{numeric; The first parameter in my add and square function}
